@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Exercise13 {
 
     public static void main(String[] args) {
-       
+       // Compute Changes
         Scanner input = new Scanner(System.in);
         System.out.println("please enter your Money to change into quarter,Dime,Nickle,pennie");
         double Money = input.nextDouble();
