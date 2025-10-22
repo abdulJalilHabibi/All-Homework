@@ -38,19 +38,14 @@ public class FindingSecondHighestscore {
     secondHighestScore = score;    
     secondHighestName = name;
     }
-    else if(score<highestScore && score<secondHighestScore){
-    thirdHighestName = name;
-    thirdHighestScore = score;
-    
+   
     }
     
     
-    }
     
-    System.out.println("the name of hgiest score is "+highestName+" and the  score is " +highestScore);
-    System.out.println("the name of second highest score is " +secondHighestName+" and the score is "+secondHighestScore );
-    System.out.println("the name of third highest score is " +thirdHighestName+" and the score is "+thirdHighestScore );
-
+    
+   System.out.println("The highest score is " + highestScore + " by " + highestName);
+   System.out.println("The second highest score is " + secondHighestScore + " by " + secondHighestName);
         
         
         
